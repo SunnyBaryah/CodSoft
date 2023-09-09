@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 50%;
+  height: 84.5vh;
+  margin: 0 auto;
+  padding: 0 25%;
+  font-family: Montserrat;
+  background-image: -webkit-linear-gradient(
+    55deg,
+    rgb(72, 123, 235) 40%,
+    #90fce1 60%
+  );
+}
+.btn {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 4.1vw;
+  /* width: 78px; */
+  cursor: pointer;
+  background-color: #154b77;
+  color: white;
+  box-shadow: 0 0 5px black;
+  border: none;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: #1c639c;
+  box-shadow: 0 0 20px #1c639c;
+}
+.btn-extra {
+  width: 9.2vw;
+  text-align: start;
+}
+.res-btn:hover {
+  background-color: #37a78b;
+  box-shadow: 0 0 20px #37a78b;
+}
+.res-btn {
+  background-color: #48dbb6;
+}
+.container {
+  width: 22vw;
+  background-color: rgb(9, 32, 82);
+  box-shadow: 0 0 25px black;
+  margin: 15% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.row {
+  margin-bottom: 10px auto;
+  display: flex;
+
+  align-items: center;
+}
+.end-row {
+  margin-bottom: 15px;
+}
+.text-row {
+  padding-right: 7px;
+  text-align: end;
+  width: 85%;
+  font-size: 20px;
+  height: 3vh;
+  font-family: roboto slab;
+  background-color: rgb(207, 200, 200);
+}
+.result {
+  height: 4vh;
+  font-weight: 1000;
+  font-size: 30px;
+}
+.exp {
+  margin-top: 40px;
+  font-size: 18px;
+  color: rgb(112, 112, 112);
+}
+.mid-calc {
+  height: 4vh;
+  width: 18.29vw;
+  padding-left: 7px;
+  text-align: start;
+  margin-bottom: 25px;
+  font-size: 17px;
+  color: rgb(136, 136, 136);
+}
